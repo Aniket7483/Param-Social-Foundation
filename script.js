@@ -706,6 +706,9 @@ badgeCards.forEach(card => {
   });
 });
 /* ---------------------------------------------------
+ FINAL FIX: Mobile dropdown should open ONLY on click
+--------------------------------------------------- */
+
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -747,9 +750,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
   } // end if touch
-});   FINAL FIX: Mobile dropdown should open ONLY on click
---------------------------------------------------- */
-
+});  
 const launcher = document.getElementById('chat-launcher');
 const chatBox = document.getElementById('mini-chat');
 const closeBtn = document.getElementById('mini-chat-close');
@@ -845,4 +846,5 @@ window.addEventListener('load', () => {
     }
   }, 2500); // 2.5 seconds delay
 });
+
 
