@@ -2810,3 +2810,8 @@ section img {
   background: #0f766e;
   color: #fff;
 }
+.top-nav .dropdown-toggle:hover + .dropdown-menu,
+.top-nav .dropdown-menu:hover {
+    display: block;
+}
+
